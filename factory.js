@@ -1,1 +1,1 @@
-function test() { console.log('EUREKA!'); }
+function test() { throw new Error('EUREKA!'); }
