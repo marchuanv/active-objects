@@ -1,3 +1,5 @@
-function getInstance() {
-   return { message: 'testing' }
+function factory() {
+    this.getInstance = () => {
+        return "some instance";
+    }
 }
