@@ -5,5 +5,8 @@ function factory() {
 }
 
 function ClassTest() {
+    getMessage = () => {
+        return 'Hello World';
+    }
 }
 ClassTest.prototype.name = 'ClassTest';
