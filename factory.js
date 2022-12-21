@@ -1,5 +1,8 @@
 function factory() {
     this.getInstance = () => {
-        return "some instance";
+        return new someClass();
     }
+}
+
+function someClass() {
 }
