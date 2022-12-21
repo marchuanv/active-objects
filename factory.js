@@ -6,4 +6,4 @@ function factory() {
 
 function ClassTest() {
 }
-TestClass.prototype.name = 'ClassTest';
+ClassTest.prototype.name = 'ClassTest';
