@@ -5,7 +5,7 @@ function factory() {
 }
 
 function ClassTest() {
-    getMessage = () => {
+    this.getMessage = () => {
         return 'Hello World';
     }
 }
