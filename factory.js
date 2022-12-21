@@ -6,3 +6,4 @@ function factory() {
 
 function someClass() {
 }
+someClass.prototype.name = 'someClass';
