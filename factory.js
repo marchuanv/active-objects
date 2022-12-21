@@ -1,9 +1,9 @@
 function factory() {
     this.getInstance = () => {
-        return new someClass();
+        return new ClassTest();
     }
 }
 
-function someClass() {
+function ClassTest() {
 }
-someClass.prototype.name = 'someClass';
+ClassTest.prototype.name = 'ClassTest';
